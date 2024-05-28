@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Kubernetes',
-    url: 'https://kubernetes.io/',
+    url: '../../docs/Deploy/Care/GCP/K8s',
     Svg: require('@site/static/img/kubernetes.svg').default,
     description: (
       <>
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Terraform',
-    url: 'https://www.terraform.io/',
+    url: '/docs/Deploy/Care/',
     Svg: require('@site/static/img/terraform.svg').default,
     description: (
       <>
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Ansible',
-    url: 'https://www.ansible.com/',
+    url: '/docs/middleware/',
     Svg: require('@site/static/img/ansible.svg').default,
     description: (
       <>
@@ -40,13 +40,13 @@ function Feature({ Svg, title, description, url }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <a href={url} target="_blank" rel="noopener noreferrer">
+        <a href={url} rel="noopener noreferrer">
           <Svg className={styles.featureSvg} role="img" />
         </a>
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">
-          <a href={url} target="_blank" rel="noopener noreferrer">
+          <a href={url} rel="noopener noreferrer">
             {title}
           </a>
         </Heading>

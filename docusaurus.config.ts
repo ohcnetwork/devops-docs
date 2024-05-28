@@ -64,16 +64,7 @@ const config: Config = {
         alt: "OHC",
         srcDark: "img/logo/svg/light_full.svg",
         src: "img/logo/svg/color_full.svg",
-      },
-      items: [
-        { to: "/docs/", label: "Care", position: "left" },
-        {
-          href: 'https://github.com/coronasafe/devops-docs',
-          position: 'right',
-          className: 'header-github-link',
-          'aria-label': 'GitHub repository',
-        },
-      ],
+      }
     },
     footer: {
       style: 'dark',
@@ -100,8 +91,8 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Middleware',
-              to: '/docs/middleware',
+              label: 'OHC Network',
+              to: 'https://ohc.network',
             },
             {
               label: 'GitHub',
