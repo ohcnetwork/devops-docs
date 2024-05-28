@@ -17,7 +17,7 @@ The Ansible playbook is designed to standardize access via SSH by adding public 
 
 ## How To 
 
-1. Clone the repository [Middleware-Ansible](github.com/10bedicu/middleware-ansible)  and cd into it. 
+1. Clone the repository [Middleware-Ansible](https://github.com/10bedicu/middleware-ansible)  and cd into it. 
 2. Create a python venv by running `python -m venv ansible`
 3. Install ansible by running `pip install -r requirements.txt`
 4. Run the playbook by `ansible-playbook -i inventory/hosts.yml edit.yml -u username` 
